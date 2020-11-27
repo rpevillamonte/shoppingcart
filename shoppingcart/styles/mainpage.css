@@ -1,0 +1,88 @@
+.sortList {
+    display: inline-block;
+    position: relative;
+    transition: 500ms;
+}
+
+form {
+    margin: auto;
+    width: 31%;
+}
+
+tr:nth-child(even) {
+    background-color: blanchedalmond;
+}
+
+tr:nth-child(odd) :not(th) {
+    background-color: cornsilk;
+}
+
+th:nth-child(odd) {
+    background-color: khaki;
+}
+
+th:nth-child(even) {
+    background-color: mintcream;
+}
+
+table {
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;    
+}
+
+th, td:not(#qty){
+    text-align: center;
+    border: 10px;
+    max-width: 100px;
+    overflow: hidden;
+}
+
+th {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#qty {
+    max-height: 30px;
+    overflow: auto;
+    width:50px;
+}
+
+.sortList:hover .sortList-content {
+    display: block;
+}
+
+#sortButton {
+    min-width: 160px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: aqua;
+}
+
+#searchButton {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#searchButton, #sortButton {
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.sortList-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    border-color: black;
+    min-width: 160px;
+    background-color: honeydew;
+}
+
+.sortList-content a {
+    display: block;
+    padding: 5px;
+}

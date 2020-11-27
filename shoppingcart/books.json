@@ -1,0 +1,62 @@
+[
+    {
+        "book_id" : "00099999",
+        "book_title" : "Harry Potter and the Sorcerer's Stone",
+        "authors" : ["Rowling, J.K."],
+        "publisher" : "XYZ Publishing",
+        "publish_date" : "09-10-2020",
+        "stock" : 50,
+        "rating" : 4.88,
+        "book_img" : "img/81YOuOGFCJL.jpg",
+        "price" : 250.75,
+        "description" : "This is a sample description."
+    },
+    {
+        "book_id" : "12345678",
+        "book_title" : "Doctor Sleep",
+        "authors" : ["King, Stephen"],
+        "publisher" : "JJR Publishing",
+        "publish_date" : "01-11-2020",
+        "stock" : 20,
+        "rating" : 4.88,
+        "book_img" : "img/doctor_sleep_full.jpg",
+        "price" : 420.00,
+        "description" : "This is a good book."
+    },
+    {
+        "book_id" : "019191872",
+        "book_title" : "Coding Games in Scratch",
+        "authors" : ["n/a"],
+        "publisher" : "XYZ Publishing",
+        "publish_date" : "09-10-2020",
+        "stock" : 50,
+        "rating" : 3.88,
+        "book_img" : "img/9781465477330.jpg",
+        "price" : 150.40,
+        "description" : "This is a sample description."
+    },
+    {
+        "book_id" : "76464644",
+        "book_title" : "Spider-Man",
+        "authors" : ["Lee, Stan"],
+        "publisher" : "Marvel Comics",
+        "publish_date" : "09-14-1998",
+        "stock" : 20,
+        "rating" : 4.95,
+        "book_img" : "img/merlin_171454440_6136d614-7b89-4b28-83a5-cf18d9c14a36-mobileMasterAt3x.jpg",
+        "price" : 100.00,
+        "description" : "This is a good book."
+    },
+    {
+        "book_id" : "2983781",
+        "book_title" : "The Subtle Art of Not Giving A F###",
+        "authors" : ["Manson, Mark"],
+        "publisher" : "ZZZ Publishing",
+        "publish_date" : "01-11-2020",
+        "stock" : 20,
+        "rating" : 4.88,
+        "book_img" : "img/the-subtle-art-of-not-giving-a-f.jpg",
+        "price" : 425.00,
+        "description" : "This is a good book."
+    }
+]
